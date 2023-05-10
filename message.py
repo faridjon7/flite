@@ -15,4 +15,3 @@ if __name__ == "__main__":
     chat_id = input("Enter chat ID: ")
     text = input("Your message: ")
     asyncio.run(send_message(chat_id=chat_id, text=text))
-
